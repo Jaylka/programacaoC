@@ -6,13 +6,13 @@ int main(){
     float altura;
     char nome[50];
 
-    printf("Digite sua idade: \n");
+    printf("Digite sua idade: \n");     //leitura idade
     scanf("%d", &idade);
 
-    printf("Digite sua altura: \n");
+    printf("Digite sua altura: \n");    
     scanf("%f", &altura);
 
-    printf("Digite o seu nome: \n");
+    printf("Digite o seu nome: \n");    
     scanf("%s", &nome);
 
     printf("Digite sua matricula: \n");
@@ -21,8 +21,8 @@ int main(){
     printf("Nome do aluno: %s\n", nome);
     printf("Matrícula: %d\n", matricula);
     printf("Idade: %d anos\n", idade);  
-    printf("Altura: %.2f metros\n", altura);
+    printf("Altura: %.2f metros\n", altura);    //%.2f formatação da altura, 2 digt.após a vígula
 
-    return 0;
+    return 0;   //confirmação
 
 }
